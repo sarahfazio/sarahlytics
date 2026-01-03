@@ -17,17 +17,19 @@ export function Nav() {
               : "text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white"
           }`}
         >
-          About Me
+          <span className="mr-2">About Me</span>
+          <span className="inline-block hover:scale-110 transition-transform">💻</span>
         </Link>
         <Link
           href="/blog"
-          className={`pb-4 px-1 font-medium transition-colors ${
+          className={`pb-4 font-medium transition-colors flex items-center ${
             pathname === "/blog"
               ? "border-b-2 border-black dark:border-white text-black dark:text-white"
               : "text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white"
           }`}
         >
-          Sports Analytics
+          <span className="mr-2">Sports Analytics</span>
+          <span className="inline-block hover:scale-110 transition-transform">🏀</span>
         </Link>
       </div>
     </nav>

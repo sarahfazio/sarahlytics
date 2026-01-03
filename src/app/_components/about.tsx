@@ -26,7 +26,7 @@ export function About() {
                 Currently at Capital One working on ML infrastructure services. 
               </p>
               <p className="text-lg leading-relaxed mb-6">
-                In my free time, I'm a big Bay Area and Northwestern sports fan and enjoy applying data analytics to sports.
+                In my free time, I'm a big Bay Area and Northwestern sports fan and enjoy the intersection of numbers and sports.
               </p>
               <div className="flex items-center gap-3">
                 <a
