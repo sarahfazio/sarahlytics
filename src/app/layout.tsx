@@ -1,4 +1,5 @@
 import Footer from "@/app/_components/footer";
+import { Nav } from "@/app/_components/nav";
 import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -61,6 +62,10 @@ export default function RootLayout({
         className={cn(inter.className, "dark:bg-slate-900 dark:text-slate-400")}
       >
         <ThemeSwitcher />
+        <div className="container mx-auto px-5 pt-8">
+          <h1 className="text-5xl font-bold mb-8 text-center">Sarah Fazio</h1>
+          <Nav />
+        </div>
         <div className="min-h-screen">{children}</div>
         <Footer />
       </body>
